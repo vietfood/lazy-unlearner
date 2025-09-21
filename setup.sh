@@ -15,17 +15,5 @@ sudo apt-get install build-essential cuda-toolkit nodejs npm nvidia-gds btop nvt
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Install aws cli
-# curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-# unzip -u awscliv2.zip
-# rm -r awscliv2.zip
-# sudo ./aws/install
-
-# Setup AWS
-# aws configure
-# aws s3 cp s3://thesis2025-lenguyen/wmdp-corpora.zip ./wmdp-corpora.zip
-# unzip wmdp-corpora.zip
-# rm -r __MACOSX && rm wmdp-corpora.zip && mkdir rmu/data && mv wmdp-corpora/* rmu/data && rm -r wmdp-corpora
-
 # Reboot
 sudo reboot
