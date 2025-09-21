@@ -1,0 +1,11 @@
+uv run accelerate launch run_test.py \
+	--model_name_or_path "google/gemma-2-2b-it" \
+	--steering_coeffs 700 700 \
+	--alpha 300 300 \
+	--layer_id 5 \
+	--max_num_batches 400 \
+	--batch_size 4 \
+	--type "original" \
+	--gradient_checkpointing \
+	--gradient_accumulation_steps 1 \
+	--noverbose
