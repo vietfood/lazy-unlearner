@@ -1,6 +1,6 @@
 # Lazy Unlearner: Code & Results
 
-This repository contains code and results accompanying the article **“Finding and Fighting the Lazy Unlearner: An Adversarial Approach”**. Our goal is to enable reproducibility of the main experiments and analyses presented in the article.
+This repository contains code and results accompanying the article [Finding and Fighting the Lazy Unlearner: An Adversarial Approach](https://lenguyen.vercel.app/note/rmu-improv). Our goal is to enable reproducibility of the main experiments and analyses presented in the article.
 
 ---
 
